@@ -14,5 +14,12 @@ Send button next to message for is disabled by default and it is enabled only wh
 
 In order to view all messages, database is queried and resulting chatlist is displayed.
 
+This application is run using following steps:
+
+1. python manage.py migrate
+2. python manage.py runserver
+3. Open the given ip in 2 separate browser windows to setup 2 different clients
+4. start entering messages in the form
+
 
 
